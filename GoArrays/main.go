@@ -7,4 +7,9 @@ func main() {
 	fmt.Print("\nBefore Sorting :", arr)
 	InsertionSort(arr)
 	fmt.Print("\nAfter Sorting :", arr)
+	fmt.Println("Searching element: ")
+	element := 18
+	index := BinarySearch(arr, element)
+	fmt.Println(" element ", element, "is present in index : ", index)
+
 }
